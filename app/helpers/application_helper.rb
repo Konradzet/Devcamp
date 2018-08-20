@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p,greeting, class: "source-greeting")
     end 
   end
+
+  def copyright_generator
+    CroscomViewTool::Renderer.copyright 'Konrad Zdzieba', 'All rights reserved'
+  end
 end

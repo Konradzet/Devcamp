@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Konradzet/croscom_view_tool
+  revision: f5c254a4d0847415e68ec69ef711df954d89c934
+  specs:
+    croscom_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,6 +211,7 @@ DEPENDENCIES
   bootstrap (~> 4.1.3)
   byebug
   coffee-rails (~> 4.2)
+  croscom_view_tool!
   devise (~> 4.4, >= 4.4.3)
   friendly_id (~> 5.2, >= 5.2.4)
   jbuilder (~> 2.5)
